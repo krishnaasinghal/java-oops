@@ -1,0 +1,8 @@
+public class Main1{
+    public static void main(){
+        Rectangle R =new Rectangle();
+        R.getdata(3,5);
+        int res=R.area();
+        System.out.println("the area is"+res);
+    }
+}
